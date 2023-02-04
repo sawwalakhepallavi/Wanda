@@ -1,0 +1,16 @@
+#p2{
+    color: pink;
+}
+.sp1{
+    background-color: greenyellow;
+}
+h5{
+    color: brown;
+    background-color: aqua;
+}
+#p2,.sp1,h5{
+    font-size: 50px;
+}
+*{
+    background-color: cornsilk;
+}

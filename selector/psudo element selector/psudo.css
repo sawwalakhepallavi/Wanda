@@ -1,0 +1,20 @@
+p::first-line{
+    background-color: pink;
+}
+p::first-letter{
+    color: aqua;
+    font-size: 100px;
+}
+p::after{
+    content: url(https://em-content.zobj.net/source/noto-emoji-animations/344/winking-face_1f609.gif);
+}
+p::before{
+    content: url(https://em-content.zobj.net/source/skype/289/rolling-on-the-floor-laughing_1f923.png);
+}
+li::marker{
+    color: red;
+}
+p::selection{
+    background-color: chartreuse;
+    color: coral;
+}

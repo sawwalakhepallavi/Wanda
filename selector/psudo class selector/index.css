@@ -1,0 +1,25 @@
+a:visited{
+    color: green;
+}
+a:link{
+    color: blueviolet;
+}
+a:active{
+    color: black;
+}
+img:hover{
+    height: 300px;
+    width: 200px;
+}
+p:first-child{
+    color: plum;
+}
+p:last-child{
+    color: grey;
+}
+p:last-of-type{
+    color: orange;
+}
+p:nth-child(2){
+    color: red;
+}
