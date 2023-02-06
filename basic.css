@@ -1,0 +1,39 @@
+div{
+    background: url(https://images.unsplash.com/photo-1585016495481-91613a3ab1bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bmF0dXJhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    color:black;
+    text-shadow: 5px 5px 5px green;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 100px;
+}
+p{
+    text-shadow:5px 5px 5px green;
+    text-transform: capitalize;
+}
+div:hover{
+    background: url(https://images.unsplash.com/photo-1546587348-d12660c30c50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1:hover{
+    color:rgb(6, 6, 234);
+    text-shadow: 5px 5px 5px rgb(5, 5, 45);
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 100px;
+}
+p:hover{
+    text-shadow:5px 5px 5px rgb(22, 22, 49);
+    text-transform: capitalize;
+}
+
