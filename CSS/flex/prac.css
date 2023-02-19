@@ -1,0 +1,50 @@
+section{
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex-start;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+div{
+    border: 1px solid white;
+    flex-wrap: wrap;
+    display: flex; 
+} 
+
+#box1{
+    height:200px ;
+    width: 400px;
+    background-color: red;
+}
+    
+#box2{
+    height: 200px;
+    width: 500px;
+    background-color: yellow;
+   }
+#box3{
+    height: 200px;
+    width: 550px;
+    background-color: green;
+}
+    
+#box4{
+    height:200px ;
+    width: 400px;
+    background-color: red;
+ }
+#box5{
+    height: 200px;
+    width: 500px;
+    background-color: yellow;
+}
+ #box6{  
+    height: 200px;
+    width: 550px;
+    background-color: green;
+    
+}
