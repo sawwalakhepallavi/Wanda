@@ -1,0 +1,21 @@
+.container{
+    height: 300px;
+    width:300px;
+    border: 2px solid black;
+    border-radius: 20px 20px 20px 20px;
+    background: linear-gradient(red ,yellow,black,orange);
+    color:white;
+    position: relative;
+    top: 200px;
+}
+section{
+    height: 100vh;
+    background-color: purple;
+}
+*{
+    padding: 0;
+    margin: 0;  
+}
+form{
+    margin-top: 30px;
+}
