@@ -1,0 +1,13 @@
+console.log(window);
+console.log(window.document);
+console.log(document.head);
+console.log(document.body);
+document.title="Dom"
+console.log(document.title);
+console.log(window.screen.availHeight);
+console.log(window.screen.availWidth);
+console.log(window.location);
+console.log(window.location.href);
+console.log(window.location.hash);
+console.log(window.location.protocol);
+console.log(window.location.origin);
