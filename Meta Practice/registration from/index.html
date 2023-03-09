@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="refresh" content="5", url:(https://www.youtube.com/)>
+    <!-- <meta http-equiv="refresh" content="5", url:(https://www.youtube.com/)> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
@@ -12,7 +12,7 @@
     <h1>Registration from</h1>
     <section><center>
      <div class="container">
-      <form>
+      <form action="" method="get" onsubmit="fetch()">
         <label for="name">Nmae</label>
         <input type="name" id="name">
         <br>
@@ -39,9 +39,11 @@
                 </select>
         <br>
         <br>
-        <input type="button" value="submit">
+        <input type="submit" value="submit">
        </form>
       </div></center>
     </section>
+
+    <script src="./index.js"></script>
 </body>
 </html>
