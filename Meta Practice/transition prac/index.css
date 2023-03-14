@@ -1,0 +1,24 @@
+.circle{
+    height: 150px;
+    width: 150px;
+    color: whitesmoke;
+    background-color: black;
+    border: 5px solid green;
+    border-radius: 50%;
+    padding: 30px;
+    text-align: center;
+    animation: circle 5s ease-in-out 2s infinite ;
+}
+body{
+   position: absolute;
+   top: 200px;
+   left: 500px;
+}
+@keyframes circle {
+    from{
+        transform: scale(2[]);
+    }
+    to{
+        transform: scale(0);
+    }
+}
