@@ -1,0 +1,20 @@
+section{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(grey,white);
+
+}
+.container{
+    height: 450px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    top: 200px;
+    left: 500px;
+    text-align: center;
+    background-color: azure;
+}
+.container img{
+    border-radius: 20px;
+}
