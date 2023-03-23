@@ -1,0 +1,65 @@
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(25,25,25);
+    padding-top: 20px;
+    color: white;
+    border: 1px solid black;
+}
+.col-1{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.col-2{
+    text-align: right;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
+    padding-bottom: 15px;
+}
+section{
+    background-image: url(./img/errorPage404_desktop.webp);
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+main{
+    height: 400px;
+    width: 500px;
+    position: relative;
+    top: 200px;
+    left: 900px;
+    /* border: 1px solid black; */
+}
+div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#row-1{
+    font-size: 130px;
+    font-weight: bolder;
+}
+#row-2{
+    font-size: 50px;
+}
+#row-3{
+   font-size: 20px;
+   text-align: center;
+}
+#row-4{
+    font-size: 20px;
+    text-align: center;
+}
+button{
+    background: none;
+    font-size: 30px;
+    color: white;
+    border: 1px splid white;
+    border-radius: 5px;
+}
